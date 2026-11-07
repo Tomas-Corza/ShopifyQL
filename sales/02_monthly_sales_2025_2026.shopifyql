@@ -1,0 +1,6 @@
+FROM sales
+SHOW orders, gross_sales, discounts, sales_reversals, net_sales, shipping_charges, duties, taxes, total_sales, average_order_value
+TIMESERIES month
+WITH TOTALS
+SINCE 2025-01-01 UNTIL 2026-09-30
+ORDER BY month ASC

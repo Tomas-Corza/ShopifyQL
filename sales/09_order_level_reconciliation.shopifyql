@@ -1,0 +1,7 @@
+FROM sales
+SHOW orders, total_sales, returns, net_sales
+GROUP BY order_name, order_payment_status, traffic_type, referring_platform, referring_channel
+WITH TOTALS, LAST_CLICK_ATTRIBUTION
+SINCE 2026-09-01 UNTIL today
+ORDER BY order_name ASC
+LIMIT 1000

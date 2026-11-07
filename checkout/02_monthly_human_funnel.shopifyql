@@ -1,0 +1,6 @@
+FROM sessions
+SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate, checkout_conversion_rate
+WHERE human_or_bot_session = 'human'
+TIMESERIES month
+SINCE 2025-09-01 UNTIL 2026-09-30
+ORDER BY month ASC

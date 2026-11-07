@@ -1,0 +1,7 @@
+FROM sessions
+SHOW sessions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate, checkout_conversion_rate
+WHERE human_or_bot_session = 'human'
+GROUP BY month, referrer_source
+SINCE 2025-09-01 UNTIL 2026-09-30
+ORDER BY month ASC, sessions DESC
+LIMIT 1000

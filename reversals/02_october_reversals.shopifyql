@@ -1,0 +1,7 @@
+FROM sales
+SHOW sales_reversals, gross_sales, discounts, net_sales, total_sales
+WHERE is_sales_reversal = true
+GROUP BY day, order_name
+SINCE 2026-10-01 UNTIL 2026-10-08
+ORDER BY day ASC
+LIMIT 1000

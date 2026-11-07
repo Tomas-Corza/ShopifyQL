@@ -1,0 +1,4 @@
+FROM campaign_sales
+SHOW campaign_last_click_order_count
+GROUP BY referring_channel, referring_platform, new_or_returning_customer
+SINCE 2026-09-05 UNTIL 2026-10-04

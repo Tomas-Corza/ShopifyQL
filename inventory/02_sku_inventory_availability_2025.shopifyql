@@ -1,0 +1,7 @@
+FROM inventory
+SHOW days_in_stock, days_out_of_stock, inventory_units_sold, ending_inventory_units, sell_through_rate
+WHERE inventory_is_tracked = true
+GROUP BY product_id, product_variant_id, product_variant_sku, product_title, product_variant_title
+SINCE 2025-09-01 UNTIL 2025-09-30
+ORDER BY days_out_of_stock DESC
+LIMIT 10000

@@ -1,0 +1,6 @@
+FROM sales
+SHOW orders, total_sales, net_sales
+GROUP BY referring_channel
+WITH LAST_CLICK_ATTRIBUTION
+SINCE 2026-09-05 UNTIL 2026-10-04
+ORDER BY total_sales__last_click DESC

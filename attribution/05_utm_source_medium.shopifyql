@@ -1,0 +1,5 @@
+FROM sales
+SHOW orders, net_sales, total_sales
+GROUP BY utm_source, utm_medium
+WITH LAST_CLICK_ATTRIBUTION
+SINCE 2026-10-14 UNTIL 2026-10-20

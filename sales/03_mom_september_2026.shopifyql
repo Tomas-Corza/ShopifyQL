@@ -1,0 +1,7 @@
+FROM sales
+SHOW orders, net_sales, total_sales, average_order_value, sales_reversals
+TIMESERIES month
+WITH PERCENT_CHANGE
+SINCE 2026-09-01 UNTIL 2026-09-30
+COMPARE TO previous_month
+ORDER BY month ASC

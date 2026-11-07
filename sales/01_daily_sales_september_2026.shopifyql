@@ -1,0 +1,7 @@
+FROM sales
+SHOW orders, gross_sales, discounts, sales_reversals, net_sales, shipping_charges, duties, additional_fees, taxes, total_sales
+GROUP BY day
+WITH TOTALS
+SINCE 2026-09-01 UNTIL 2026-09-30
+ORDER BY day ASC
+LIMIT 1000

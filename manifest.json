@@ -1,0 +1,152 @@
+[
+  {
+    "file": "sales/01_daily_sales_september_2026.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "sales/02_monthly_sales_2025_2026.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "sales/03_mom_september_2026.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "sales/04_daily_sales_october_2026.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-09"
+  },
+  {
+    "file": "sales/05_quarterly_profitability.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "sales/06_daily_channel_sales.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-26"
+  },
+  {
+    "file": "sales/07_daily_channel_traffic_sales.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-26"
+  },
+  {
+    "file": "sales/08_order_status_sales.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-09"
+  },
+  {
+    "file": "sales/09_order_level_reconciliation.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-09"
+  },
+  {
+    "file": "sales/10_daily_sales_oct14_18.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "customers/01_new_customers_by_first_source.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-02"
+  },
+  {
+    "file": "customers/02_new_customer_channel.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-07"
+  },
+  {
+    "file": "customers/03_new_vs_returning_channel.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-07"
+  },
+  {
+    "file": "attribution/01_channel_last_click.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-07"
+  },
+  {
+    "file": "attribution/02_channel_multi_model.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "attribution/03_utm_profitability.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "attribution/04_channel_profitability.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "attribution/05_utm_source_medium.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-21"
+  },
+  {
+    "file": "attribution/06_campaign_sales_utm.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-21"
+  },
+  {
+    "file": "attribution/07_campaign_channel_customer_type.shopifyql",
+    "provenance": "adapted",
+    "original_discussion_date": "2026-10-07"
+  },
+  {
+    "file": "inventory/01_sku_sales_2025.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-20"
+  },
+  {
+    "file": "inventory/02_sku_inventory_availability_2025.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-20"
+  },
+  {
+    "file": "inventory/03_monthly_inventory_history.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-22"
+  },
+  {
+    "file": "inventory/04_monthly_product_sales_profit.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-22"
+  },
+  {
+    "file": "checkout/01_daily_human_funnel.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-19"
+  },
+  {
+    "file": "checkout/02_monthly_human_funnel.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-20"
+  },
+  {
+    "file": "checkout/03_referrer_checkout.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-20"
+  },
+  {
+    "file": "checkout/04_daily_sessions_channel.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-26"
+  },
+  {
+    "file": "reversals/01_same_day_reversals.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-09"
+  },
+  {
+    "file": "reversals/02_october_reversals.shopifyql",
+    "provenance": "recovered",
+    "original_discussion_date": "2026-10-09"
+  }
+]

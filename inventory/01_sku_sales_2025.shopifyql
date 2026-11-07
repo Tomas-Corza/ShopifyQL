@@ -1,0 +1,6 @@
+FROM sales
+SHOW net_sales, gross_sales, discounts, net_items_sold, quantity_ordered, cost_of_goods_sold, gross_profit, gross_margin
+GROUP BY product_id, product_variant_id, product_variant_sku, product_title, product_variant_title, product_type, product_vendor
+SINCE 2025-09-01 UNTIL 2025-09-30
+ORDER BY net_sales DESC
+LIMIT 10000

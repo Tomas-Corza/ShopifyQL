@@ -1,0 +1,5 @@
+FROM sales
+SHOW orders, total_sales, net_sales
+GROUP BY referring_channel, new_or_returning_customer
+SINCE 2026-09-05 UNTIL 2026-10-04
+ORDER BY referring_channel, new_or_returning_customer

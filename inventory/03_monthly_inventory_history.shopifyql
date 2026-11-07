@@ -1,0 +1,8 @@
+FROM inventory
+SHOW ending_inventory_units, days_in_stock
+WHERE inventory_is_tracked = true
+GROUP BY product_variant_id, product_variant_sku, product_title
+TIMESERIES month
+SINCE 2025-01-01 UNTIL 2026-09-30
+ORDER BY month ASC
+LIMIT 10000

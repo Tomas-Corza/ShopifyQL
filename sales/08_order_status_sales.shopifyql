@@ -1,0 +1,6 @@
+FROM sales
+SHOW total_sales
+GROUP BY month, day, order_name, order_payment_status
+SINCE 2026-01-01 UNTIL today
+ORDER BY month DESC, day DESC
+LIMIT 10000
