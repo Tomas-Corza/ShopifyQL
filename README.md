@@ -46,3 +46,10 @@ Use one query per file. For a new query, add a matching entry in `manifest.json`
 ## License
 
 MIT; see [`LICENSE`](LICENSE).
+
+
+## Reusing these queries with another store
+
+The `.shopifyql` files contain query templates, not exported sales or customer records. Review and replace each `SINCE`/`UNTIL` period for the intended reporting question, confirm metric and dimension support in that store, and verify the resulting totals against authorized reports. Fixed dates in archived queries are historical query parameters, not recommended defaults for new stores. Preserve the original query provenance in `manifest.json`; changing dates in a working copy is sufficient for reuse.
+
+**Rights and confidentiality:** Query portability does not establish who owns a query originally created for a particular engagement. Obtain any required permission before reusing protected work, and do not commit real exports or identifiers.
